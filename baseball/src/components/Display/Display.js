@@ -5,9 +5,9 @@ function Display(props) {
     <>
       <h3>Score Console</h3>
       <div className="display">
-        <p>Strikes: {props.strikes}</p>
-        <p>balls: {props.balls}</p>
-        <p>outs: {props.outs}</p>
+        <p className="pStrikes">Strikes: {props.strikes}</p>
+        <p className="pBalls">balls: {props.balls}</p>
+        <p className="pOuts">outs: {props.outs}</p>
       </div>
     </>
   )
